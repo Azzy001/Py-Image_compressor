@@ -1,4 +1,11 @@
-print("This is a test")
-print("Still testing")
+from tkinter import *
 
-print("Another test")
+window = Tk()
+
+# Window configurations
+window.title("Arsalan's Image Compressor")
+window.geometry("450x350")
+window.resizable(0, 0)
+window.attributes("-topmost", True)
+window.configure(bg="grey")
+window.mainloop()
